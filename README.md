@@ -9,5 +9,5 @@ On every build, the latest Eisvogel LaTeX template will be included in the image
 ## Usage of the resulting image
 
 ```console
-$ docker run --rm --volume "`pwd`:/data" docker.pkg.github.com/ttps-ruby/pandoc-eisvogel input.md -o output.pdf
+$ docker run --rm --volume "`pwd`:/data" docker.pkg.github.com/ttps-ruby/pandoc-eisvogel/run input.md -o output.pdf
 ```
